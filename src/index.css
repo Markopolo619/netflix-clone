@@ -1,3 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --netflix-red: #e50914;
+}
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +15,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.svg-icon{
+  height: 100px;
+  width: 200px;
+  padding-top: 3rem;
+  padding-left: 40px;
+  line-height: normal;
+  fill: var(--netflix-red);
+}
+
+.header-flex{
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+.signin-btn{
+  color:white;
+}
+
+.parent-signin{
+  padding-top: 3rem;
+  padding-right: 40px;
+
 }
