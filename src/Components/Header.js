@@ -1,5 +1,5 @@
 import React from "react";
-import Background from '../images/background.jpeg'
+import Background from "../images/background.jpeg";
 
 export default function Header() {
   return (
@@ -25,6 +25,24 @@ export default function Header() {
           </button>
         </div>
       </nav>
+      <div className="intro">
+        <h2 id="intro-h2">Unlimited movies, TV shows, and more.</h2>
+        <h3 id="intro-h3">Watch anywhere. Cancel anytime.</h3>
+        <p id="intro-p">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <form className="email1" id="email" action="/">
+          <input
+            placeholder="Email Address"
+            type="email"
+            id="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
+          />
+        </form>
+        <div className="get-started-btn">
+          <button className="get-started">Get Started </button>
+        </div>
+      </div>
     </div>
   );
 }
