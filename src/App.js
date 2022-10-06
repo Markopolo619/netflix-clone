@@ -7,6 +7,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <hr 
+        style={{
+          border: "8px solid #222",}}
+      />
     </div>
   );
 }

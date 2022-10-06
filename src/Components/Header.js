@@ -1,5 +1,6 @@
 import React from "react";
 import Background from "../images/background.jpeg";
+import Section_Line from "./Section_Line";
 
 export default function Header() {
   return (
@@ -40,7 +41,7 @@ export default function Header() {
           />
         </form>
         <div className="get-started-btn">
-          <button className="get-started">Get Started </button>
+          <button className="get-started">Get Started</button>
         </div>
       </div>
     </div>
