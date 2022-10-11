@@ -1,6 +1,5 @@
 import React from "react";
 import Background from "../images/background.jpeg";
-import Section_Line from "./Section_Line";
 
 export default function Header() {
   return (

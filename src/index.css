@@ -99,5 +99,19 @@ body {
 }
 
 .first_section{
-  padding: 50px 5%;
+display: flex;
+}
+
+.first_section_text{
+  color: white;
+}
+
+#first_section_heading{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+}
+
+#first_section_h4{
+  font-size: 25px;
+
 }

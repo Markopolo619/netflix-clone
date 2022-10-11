@@ -1,6 +1,6 @@
 import "./Components/Header"
 import Header from "./Components/Header";
-
+import FirstSection from "./Components/FirstSection";
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         style={{
           border: "8px solid #222",}}
       />
+      <FirstSection/>
     </div>
   );
 }
